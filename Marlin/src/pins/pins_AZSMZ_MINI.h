@@ -82,8 +82,9 @@
 // EFB
 #define HEATER_0_PIN       P2_04
 #define HEATER_BED_PIN     P2_05
-#define FAN_PIN            P2_07
-#define FAN1_PIN           P0_26
+#define FAN_PIN            P0_26 //default is P2_07
+#define FAN1_PIN           P2_07 //default is P0_26
+#undef FAN1_PIN //defined under configuration_adv.h to auto turn on extruder fan
 
 #if ENABLED(AZSMZ_12864)
   #define BEEPER_PIN       P1_30
