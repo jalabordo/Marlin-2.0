@@ -426,10 +426,10 @@
 
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
-  //Tronxy X5S default bed
-  #define  DEFAULT_bedKp 12.805150
-  #define  DEFAULT_bedKi 0.658633
-  #define  DEFAULT_bedKd 62.239429
+  //Tronxy X5S default bed from PID autotune
+  #define  DEFAULT_bedKp 283.433533
+  #define  DEFAULT_bedKi 12.788302
+  #define  DEFAULT_bedKd 1570.469727
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
